@@ -26,7 +26,4 @@ public class PilaDinamica{
     }
     return pilaNombres.getLast();
     }
-
-    
-
 }
