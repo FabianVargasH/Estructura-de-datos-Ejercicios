@@ -10,15 +10,19 @@ public class Main {
         arbolPersonas.insertar("20", "D");
         arbolPersonas.insertar("40", "E");
         arbolPersonas.insertar("70", "F");
-        arbolPersonas.preOrden(arbolPersonas.getRaiz());
+        /*arbolPersonas.preOrden(arbolPersonas.getRaiz());
         System.out.println("- - - - -");
         arbolPersonas.postOrden(arbolPersonas.getRaiz());
         System.out.println("- - - - - -");
-        arbolPersonas.preOrden(arbolPersonas.getRaiz());
+        arbolPersonas.preOrden(arbolPersonas.getRaiz());*/
 
 /*      arbolPersonas.insertar("d11", "Fabian");
         arbolPersonas.insertar("d11", "Fabian");
         arbolPersonas.insertar("d11", "Fabian"); */
 
+        arbolPersonas.enOrden(arbolPersonas.getRaiz());
+        arbolPersonas.eliminar("60");
+        System.out.println();
+        arbolPersonas.enOrden(arbolPersonas.getRaiz());
     }
 }
